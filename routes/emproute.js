@@ -19,7 +19,7 @@ route.put('/empupd/:eid',EC.updateemp); // update employee with Id
 
 route.put('/updbyloc/:loc',EC.multiupd); // update employee with input data
 
-route.delete("/deluser/:eid",EC.delemp); // delete employee with Id
+route.delete("/deluser/:eid",EC.delemp); // delete employee with Id 
 
 
 module.exports=route; 
